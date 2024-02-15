@@ -16,18 +16,7 @@ properties:
   symbol:
     title: Describe unit symbol
     oneOf:
-      - type: object
-        description: Information about the symbol used to describe the units
-        required:
-          - value
-          - type
-        properties:
-          value:
-            description: representation of the units symbol
-            type: string
-          type:
-            description: uri to detailed desxcription of the units
-            type: string
+      - $ref: ./unitsSymbol.yaml
       - type: string
     example:
       value: hPa
