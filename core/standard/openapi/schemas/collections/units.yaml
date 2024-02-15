@@ -16,7 +16,7 @@ properties:
   symbol:
     title: Describe unit symbol
     oneOf:
-      - $ref: ./unitsSymbol.yaml
+      - $ref: ./unitSymbol.yaml
       - type: string
     example:
       value: hPa
