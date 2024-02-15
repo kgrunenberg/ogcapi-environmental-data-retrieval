@@ -25,7 +25,7 @@ properties:
 
           boxes describes the spatial extent.
         type: array
-        minItems: 1
+        : 1
         items:
           description: >-
             Each bounding box is provided as four or six numbers, depending on
@@ -147,7 +147,6 @@ properties:
         minItems: 1
         items:
           type: string
-          minItems: 1
           format: date-time
           nullable: true
           example:
@@ -212,7 +211,7 @@ properties:
           or a list of vertical levels (e.g. "2",10,"80","100"}
           The value `null` is supported and indicates an open vertical interval.
         type: array
-        minItems: 1
+        : 1
         items:
           type: string
           nullable: true
